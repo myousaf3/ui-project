@@ -84,6 +84,11 @@ p {
   border-radius: 30px;
 }
 
+.inspire {
+  position: absolute;
+  
+}
+
 #learn-more {
   background-color: orangered;
   color: white;
