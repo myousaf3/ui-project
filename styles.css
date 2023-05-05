@@ -54,6 +54,12 @@ body {
 }
 
 @media only screen and (max-width: 993px) {
+  .notification-text {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 993px) {
   .btn-head{
     margin-left: 200px;
   }
@@ -206,7 +212,6 @@ p {
 }
 
 .notification {
-  flex-wrap: wrap;
     box-shadow: 0px 20px 30px rgba(0,0,0,0.06);
     border-radius: 7px;
     background: #fff;
