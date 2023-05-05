@@ -12,9 +12,56 @@
 </head>
 
 <body>
-  <section id="sec1">
+
+  <section class="mobile_menu d-block d-lg-none">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">
+        <img src="img/ezgif-2-f1151d9a205e.png" width="125" height="39" alt="">
+      </a>
+      <div class="navbar-mobile container bg-dark justify-content-end">
+        <button class="navbar-toggler m-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          MENU <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="p-4">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Case Study</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </div>
+      <div class="buttons">
+        <ul>
+          <li class="btn-head">
+            <button id="nav-btn" class="btn btn-outline-light mt-3">
+              Get Free Quote
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+  
+  <section id="sec1" >
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar-full navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">
           <img src="img/ezgif-2-f1151d9a205e.png" width="125" height="39" alt="">
         </a>
@@ -78,16 +125,6 @@
     </div>
   </section>
 
-  <!-- <section class="d-md-none d-block">
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top Bar overflow-auto pt-4">
-      <div class="container-fluid bg-dark p-2 d-flex justify-content-end">
-        <button class="navbar-toggler bg-light" data-toggle="collapse" data-target="#navbarResponsive">Menu
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-    </nav>
-  </section> -->
-
   <div id="section2" class="container p-5">
     <div class="row text-center">
       <p id="our-services">Our Services</p>
@@ -131,7 +168,7 @@
               </a>
             </div>
             <div class="notification d-flex">
-              <img class="img-grow" src="img/notification.svg" alt="notification">
+              <img class="img-fluid" src="img/notification.svg" alt="notification">
               <div class="col-8 ml-2">
                 <h4 class="mt-1">New Features</h4>
                 <p class="notification-p">You have recieved notifications</p>

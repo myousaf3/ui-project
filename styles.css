@@ -12,6 +12,13 @@ body {
 @media only screen and (max-width: 993px) {
   .navbar-toggler {
     background-color: #292929;
+    
+  }
+}
+
+@media only screen and (max-width: 993px) {
+  .navbar-full {
+    display: none;
   }
 }
 
@@ -39,12 +46,38 @@ body {
   margin-bottom: 10px;
 }
 
+@media only screen and (max-width: 993px) {
+  .hero-section h1 {
+    font-size: 45px;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 993px) {
+  .btn-head{
+    margin-left: 200px;
+  }
+}
+
+.navbar-mobile{
+  border-radius: 10px;
+}
+
+.mobile_menu {
+  position: absolute;
+  right: 0px;
+  width: 100%;
+  z-index: 10;
+}
+
 #nav-btn {
+  font-size: 12px;
   padding: 12px 21px !important;
   border: 2px solid #fff;
   color: #fff;
   border-radius: 30px;
 }
+
 
 .hero-shape {
   position: absolute;
