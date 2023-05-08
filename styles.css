@@ -386,7 +386,7 @@ span {
 }
 
 .sec8-p {
-  color: black;
+  color: gray;
   font-size: 15px;
 }
 
@@ -448,13 +448,8 @@ span {
 
 }
 
-.icon-social {
-  font-size: 1.8rem;
-  margin-right: 0.8rem;
-}
-
 .play {
-  font-size: 4rem;
+  font-size: 5rem;
   color: #f75c94;
 }
 
@@ -469,27 +464,33 @@ span {
 }
 
 
-.contact-link {
+.contact {
   color: black;
-  padding: 50
 }
 
-.linkitems a {
-  color: #7f7f7f;
-  font-size: medium;
-  color: rgb(32, 38, 43);
-  cursor: pointer;
+.link-items a {
+  color: gray;
   margin: 0.6rem 0 !important;
-  font-weight: 200;
   text-decoration: none !important;
+  font-weight: 200;
+  cursor: pointer;
+  font-size: medium;
 }
 
-.email {
-  border: 1px solid grey;
-  border-radius: 25px;
-  width: 200px;
+.email-bar {
+  border: 1px solid gray;
+  border-radius: 20px;
+  width: 300px;
 }
 
 .clrlib {
   color: #f75c94;
+}
+
+.social-pack {
+  font-size: 25px;
+}
+
+.iconify-social {
+  margin-right: 10px;
 }
